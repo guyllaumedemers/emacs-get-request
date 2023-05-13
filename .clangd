@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [-Xc++, -Wall, --target=x86_64-w64-mingw32, -std=c++17]
+  Remove: -W*
+  Compiler: clang++
